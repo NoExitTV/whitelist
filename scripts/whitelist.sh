@@ -23,6 +23,9 @@ sleep 0.1
 curl -sS https://raw.githubusercontent.com/Freekers/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
 echo -e " ${TICK} \e[32m Adding Freekers' domains to whitelist... \e[0m"
 sleep 0.1
+curl -sS https://raw.githubusercontent.com/NoExitTV/whitelist/master/domains/whitelist.txt | sudo tee -a "${PIHOLE_LOCATION}"/whitelist.txt >/dev/null
+echo -e " ${TICK} \e[32m Adding NoExitTV's domains to whitelist... \e[0m"
+sleep 0.1
 echo -e " ${TICK} \e[32m Removing duplicates... \e[0m"
 mv "${PIHOLE_LOCATION}"/whitelist.txt "${PIHOLE_LOCATION}"/whitelist.txt.old && cat "${PIHOLE_LOCATION}"/whitelist.txt.old | sort | uniq >> "${PIHOLE_LOCATION}"/whitelist.txt
 
@@ -33,6 +36,6 @@ echo -e " ${TICK} \e[32m Pi-hole's gravity updated \e[0m"
 echo -e " ${TICK} \e[32m Done! \e[0m"
 
 
-echo -e " \e[1m  Star us on GitHub, https://github.com/anudeepND/whitelist and https://github.com/Freekers/whitelist \e[0m"
+echo -e " \e[1m  Star us on GitHub, https://github.com/anudeepND/whitelist, https://github.com/Freekers/whitelist and https://github.com/NoExitTV/whitelist \e[0m"
 echo -e " \e[1m  Happy AdBlocking :)\e[0m"
 echo -e "\n\n"

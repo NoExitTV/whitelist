@@ -7,7 +7,7 @@
 A robust collection of commonly white listed websites borrowed from various sources including Pi-Hole subreddit, Pi-Hole forum, Pi-Hole github repository and more!
 Add these domains to your Pi-Hole setup by running a script or manually and make your setup **trouble-free!**
                 
-Want to report a new domain? Want to report existing one? Feel free to file an <a href="https://github.com/freekers/whitelist/issues">issue</a>.
+Want to report a new domain? Want to report existing one? Feel free to file an <a href="https://github.com/NoExitTV/whitelist/issues">issue</a>.
          
  <p align="center">
   <img height="430" src="https://raw.githubusercontent.com/anudeepND/whitelist/master/images/run.gif">
@@ -26,15 +26,17 @@ Want to report a new domain? Want to report existing one? Feel free to file an <
 ***
      
 ### Description
-       
+
+The content of this repository is currently used on all dns-servers hosted by <a href="https://pi-dns.com">pi-dns.com</a>
+
 ***whitelist.txt***       
-This file contain domains that are safe to whitelist i.e it does not contain any tracking or advertising sites. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on...
+This file contain domains that are safe to whitelist or are needed in order to use different services such as twitch.tv and more. Adding this file fixes many problems like YouTube watch history, videos on news sites and so on...
 
            
 ### Installation and Usage
         
 ***For Pi-hole in Docker installations***  
-- First, make sure to clone the repository into a location that is accessible by your Pi-hole Docker' container, i.e. do a `git clone https://github.com/Freekers/whitelist.git` in one of your volume mounts.  
+- First, make sure to clone the repository into a location that is accessible by your Pi-hole Docker' container, i.e. do a `git clone https://github.com/NoExitTV/whitelist.git` in one of your volume mounts.  
 - Next, make sure to make the script executable using `sudo chmod +x whitelist.sh`  
 - Finally, setup a cronjob using `crontab -e` and add the following line:  
 `0 0 * * * docker exec -d pihole '/opt/whitelist/scripts/whitelist.sh'`  
@@ -43,7 +45,7 @@ This will sync your whitelist with the one from the repository every day at midn
          
 ***For native/normal Pi-hole installations***     
 ```
-git clone https://github.com/anudeepND/whitelist.git
+git clone https://github.com/NoExitTV/whitelist.git
 cd whitelist/scripts
 sudo chmod +x whitelist.sh
 sudo ./whitelist.sh
