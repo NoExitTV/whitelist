@@ -18,3 +18,5 @@ assets.adobedtm.com
 s.amazon-adsystem.com
 thepiratebay.org
 full.pr0gramm.com
+pocketnow.com
+www.pocketnow.com
