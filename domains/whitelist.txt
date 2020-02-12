@@ -20,3 +20,4 @@ thepiratebay.org
 full.pr0gramm.com
 pocketnow.com
 www.pocketnow.com
+slack-redir.net
