@@ -2,6 +2,9 @@ pi-dns.com
 westeu.pi-dns.com
 dot.westeu.pi-dns.com
 doh.westeu.pi-dns.com
+centraleu.pi-dns.com
+dot.centraleu.pi-dns.com
+doh.centraleu.pi-dns.com
 northeu.pi-dns.com
 dot.northeu.pi-dns.com
 doh.northeu.pi-dns.com
@@ -22,3 +25,4 @@ pocketnow.com
 www.pocketnow.com
 slack-redir.net
 lgappstv.com
+cdn.stream.schibsted.media
