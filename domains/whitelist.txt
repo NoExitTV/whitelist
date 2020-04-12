@@ -27,3 +27,4 @@ slack-redir.net
 lgappstv.com
 cdn.stream.schibsted.media
 dnsotls-ds.metric.gstatic.com
+metric.gstatic.com
