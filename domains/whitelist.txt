@@ -26,3 +26,4 @@ www.pocketnow.com
 slack-redir.net
 lgappstv.com
 cdn.stream.schibsted.media
+dnsotls-ds.metric.gstatic.com
