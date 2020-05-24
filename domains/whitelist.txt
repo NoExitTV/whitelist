@@ -30,3 +30,4 @@ dnsotls-ds.metric.gstatic.com
 metric.gstatic.com
 www.hrblock.com
 hrblock.com
+go.ro
