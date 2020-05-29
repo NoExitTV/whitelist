@@ -1,7 +1,4 @@
 pi-dns.com
-westeu.pi-dns.com
-dot.westeu.pi-dns.com
-doh.westeu.pi-dns.com
 centraleu.pi-dns.com
 dot.centraleu.pi-dns.com
 doh.centraleu.pi-dns.com
@@ -31,3 +28,4 @@ metric.gstatic.com
 www.hrblock.com
 hrblock.com
 go.ro
+f2.market.xiaomi.com
