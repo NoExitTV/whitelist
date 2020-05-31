@@ -28,3 +28,4 @@ metric.gstatic.com
 www.hrblock.com
 hrblock.com
 go.ro
+g.udimg.com
