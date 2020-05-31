@@ -28,4 +28,3 @@ metric.gstatic.com
 www.hrblock.com
 hrblock.com
 go.ro
-f2.market.xiaomi.com
