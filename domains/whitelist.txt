@@ -31,3 +31,4 @@ go.ro
 g.udimg.com
 nordichardware.se
 www.nordichardware.se
+redir.diamond.synacor.com
